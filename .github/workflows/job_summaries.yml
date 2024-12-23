@@ -1,0 +1,10 @@
+name: Job sumaries
+on: push
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "### Example Title :rocket:" >> "${GIHUB_STEP_SUMMARY}"
+          echo "- first line" >> "${GIHUB_STEP_SUMMARY}"
+          echo "- second line" >> "${GIHUB_STEP_SUMMARY}"
