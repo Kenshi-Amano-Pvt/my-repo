@@ -1,4 +1,4 @@
-name: Environments.yml
+name: Environments
 on:
   workflow_dispatch:
     inputs:
